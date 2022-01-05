@@ -32,3 +32,11 @@ function well(x) {
             return 'I smell a series!'
     }
 }
+
+<>Sentence Smash</>
+
+function smash (words) {
+
+    return words.join(" ")
+
+};
