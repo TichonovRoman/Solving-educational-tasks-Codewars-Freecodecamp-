@@ -40,3 +40,16 @@ function smash (words) {
     return words.join(" ")
 
 };
+
+
+<>Fake Binary</>
+
+function fakeBin(x){
+    let a = ''
+    for (let i=0; i<= x.length -1; i++) {
+        if (x[i] < 5) {a += '0'}
+        else if (x[i] >= 5) {a+='1'}
+
+    }
+    return a
+}
