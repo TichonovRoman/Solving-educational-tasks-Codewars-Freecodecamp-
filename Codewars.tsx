@@ -60,3 +60,23 @@ function shortcut(string){
     return string.replace(vowels, "");
 }
 }
+
+
+function sixToast(num) {
+    if (num >= 6) {return num - 6}
+    else if (num < 6)  {return 6 - num}
+}
+
+<>BASIC: Making Six Toast.</>
+
+
+function sixToast(num) {
+    if (num >= 6) {return num - 6}
+    else if (num < 6)  {return 6 - num}
+}
+
+<>MakeUpperCase</>
+
+function makeUpperCase(str) {
+    return str.toUpperCase()
+}
