@@ -80,3 +80,18 @@ function sixToast(num) {
 function makeUpperCase(str) {
     return str.toUpperCase()
 }
+
+<>Find the Remainder</>
+
+function remainder(a, b){
+
+    return (a > b ? a % b : b % a)
+
+}
+
+
+<>Counting sheep...</>
+
+function countSheeps(arrayOfSheep) {
+    return arrayOfSheep.filter(t => t === true).length
+}
