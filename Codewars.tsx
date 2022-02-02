@@ -95,3 +95,27 @@ function remainder(a, b){
 function countSheeps(arrayOfSheep) {
     return arrayOfSheep.filter(t => t === true).length
 }
+
+
+<>Reversed sequence</>
+
+const reverseSeq = n => {
+    const result = [];
+
+    for(let i = n; i > 0; i -= 1) {
+        result.push(i);
+    }
+
+    return result;
+};
+
+
+<>A Needle in the Haystack</>
+
+function findNeedle(haystack) {
+    for (let i = 0; i < haystack.length; i++){
+        if (haystack[i] === 'needle'){
+            return `found the needle at position ${i}`;
+        }
+    }
+}
