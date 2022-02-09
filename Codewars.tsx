@@ -119,3 +119,19 @@ function findNeedle(haystack) {
         }
     }
 }
+
+<>Get the Middle Character</>
+function getMiddle(s)
+{
+
+    if (s.length === 1) {return s}
+    else if (s.length % 2 === 0) {return `${s[s.length/2-1]}${s[s.length/2]}`}
+    else if (s.length % 2 != 0) {return  s[Math.floor(s.length/2)]}
+}
+
+
+<>Area or Perimeter</>
+
+const areaOrPerimeter = function(l , w) {
+    return l===w ? l*w : (l+w)*2
+};
