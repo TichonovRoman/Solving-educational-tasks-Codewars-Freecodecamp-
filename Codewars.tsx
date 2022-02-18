@@ -135,3 +135,16 @@ function getMiddle(s)
 const areaOrPerimeter = function(l , w) {
     return l===w ? l*w : (l+w)*2
 };
+
+<>Эвены и шансы</>
+
+const evensAndOdds = (num) => {
+    if (num%2 === 0) return num.toString(2)
+    else if (num%2 !== 0) return num.toString(16)
+}
+
+<>Is n divisible by x and y?</>
+const isDivisible = (n, x, y) => {
+    if (n%x === 0 && n%y === 0) return true
+    else return false
+}
