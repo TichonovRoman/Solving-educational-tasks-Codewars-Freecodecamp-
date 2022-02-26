@@ -148,3 +148,14 @@ const isDivisible = (n, x, y) => {
     if (n%x === 0 && n%y === 0) return true
     else return false
 }
+
+<>Friend or Foe?</>
+function friend(friends){
+    return friends.filter(el => el.length === 4)
+}
+
+<>Sum without highest and lowest number</>
+
+function sumArray(array) {
+    return !array || array.length == 0 ? 0 : array.sort((a, b) => a - b).slice(1, array.length - 1).reduce((res, n) => res + n,0);
+}
