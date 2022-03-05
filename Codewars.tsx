@@ -165,3 +165,12 @@ function sumArray(array) {
 function numberToString(num) {
     return num.toString()
 }
+
+
+
+<>Nth power rules them all!</>
+
+const modifiedSum = (a: Array<number>, n: number)=> {
+
+    return a.reduce((acc, c) => { return acc + c**n }, 0) - a.reduce((acc, c) => {return acc + c}, 0)
+}
