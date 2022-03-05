@@ -159,3 +159,9 @@ function friend(friends){
 function sumArray(array) {
     return !array || array.length == 0 ? 0 : array.sort((a, b) => a - b).slice(1, array.length - 1).reduce((res, n) => res + n,0);
 }
+
+<>Convert a Number to a String!</>
+
+function numberToString(num) {
+    return num.toString()
+}
