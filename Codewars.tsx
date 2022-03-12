@@ -184,3 +184,8 @@ function fourSeven(n){
     return a.map(n => n===4 ? 7 : ((n != 4 && n != 7) ? 0 : 4))
 }
 
+<> Sum of Minimums! </>
+function sumOfMinimums(arr) {
+    let c = arr.map( a => Math.min.apply(null, a))
+    return c.reduce((acc, c)=>acc + c, 0)
+}
