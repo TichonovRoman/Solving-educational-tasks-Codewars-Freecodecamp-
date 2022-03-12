@@ -174,3 +174,13 @@ const modifiedSum = (a: Array<number>, n: number)=> {
 
     return a.reduce((acc, c) => { return acc + c**n }, 0) - a.reduce((acc, c) => {return acc + c}, 0)
 }
+
+
+<>    Four/Seven</>
+
+function fourSeven(n){
+    let a = []
+    a.push(n)
+    return a.map(n => n===4 ? 7 : ((n != 4 && n != 7) ? 0 : 4))
+}
+
