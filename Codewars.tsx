@@ -189,3 +189,8 @@ function sumOfMinimums(arr) {
     let c = arr.map( a => Math.min.apply(null, a))
     return c.reduce((acc, c)=>acc + c, 0)
 }
+
+<>USD => CNY</>
+function usdcny(usd) {
+    return `${(usd * 6.75).toFixed(2)}${" Chinese Yuan"}`
+}
