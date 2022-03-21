@@ -194,3 +194,20 @@ function sumOfMinimums(arr) {
 function usdcny(usd) {
     return `${(usd * 6.75).toFixed(2)}${" Chinese Yuan"}`
 }
+
+<>List Filtering</>
+function filter_list(l) {
+    return l.filter(n => typeof(n) != "string")
+}
+
+<>Responsible Drinking</>
+function hydrate(s) {
+    const numbers = s.replace(/[^0-9]/g,"");
+    let sum = 0;
+
+    for (let i = 0; i < numbers.length ; i++) {
+        sum = sum + Number(numbers[i])
+    }
+    if (sum === 1) return `${sum} glass of water`
+    else return `${sum} glasses of water`
+}
