@@ -211,3 +211,15 @@ function hydrate(s) {
     if (sum === 1) return `${sum} glass of water`
     else return `${sum} glasses of water`
 }
+
+<>Merge two sorted arrays into one</>
+function mergeArrays(arr1, arr2) {
+    const a = arr1.concat(arr2).sort((a,b) => a-b)
+
+
+    let arr_1 = new Set(a)
+    return  [...arr_1]
+}
+
+<>Function 3 - multiplying two numbers</>
+const multiply = (a,b) => a*b
