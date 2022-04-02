@@ -223,3 +223,24 @@ function mergeArrays(arr1, arr2) {
 
 <>Function 3 - multiplying two numbers</>
 const multiply = (a,b) => a*b
+
+<>Opposites Attract</>
+function lovefunc(flower1, flower2){
+    return (flower1%2==0 && flower2%2!=0) || (flower1%2!=0 && flower2%2==0)
+}
+
+<>Case Swapping</>
+function swap(str){
+    let a= ""
+    for (let i = 0; i < str.length; i++) {
+        if(str[i] ===  str[i].toUpperCase()) {
+            a = a + str[i].toLowerCase()
+        } else {
+            a = a + str[i].toUpperCase()
+        }
+
+
+
+    }
+    return a
+}
